@@ -1,0 +1,5 @@
+(setf
+ (symbol-plist
+  (intern "sccl" *projects*))
+ '(:name "sccl" :target "sccl" :directory "~/devel/sccl/" :files
+	 ("seq.c" "main.c" "stdh.c" "iterator.c" "list.c" "vector.c")))
